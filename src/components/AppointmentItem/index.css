@@ -1,0 +1,8 @@
+/* Write your CSS here */
+.appointment-item {
+  border-width: 1px;
+  border-radius: 13px;
+  border-color: #171f46;
+  display: flex;
+  flex-wrap: wrap;
+}

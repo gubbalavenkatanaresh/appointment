@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  width: 80%;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.add-button {
+  margin-top: 10px;
+  width: 70px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.title {
+  margin-top: 10px;
+  color: #b5b7c4;
+  font-size: 15px;
+}
+.date {
+  margin-top: 10px;
+  color: #b5b7c4;
+  font-size: 15px;
+}
+#title {
+  padding: 5px;
+}
+#date {
+  padding: 5px;
+}
+.start-button {
+  background-color: transparent;
+  border-width: 1px;
+  border-radius: 25px;
+  color: #9897f0;
+  border-color: #9897f0;
+  height: 30px;
+  margin-top: 30px;
+}
+.bottom-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
